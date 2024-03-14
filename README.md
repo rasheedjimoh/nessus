@@ -2,6 +2,9 @@
 
 Welcome to my professional portfolio where I showcase my expertise in cybersecurity, specifically in vulnerability management using Nessus. Below, I'll guide you through the process of downloading, installing, and configuring Nessus on Ubuntu, and how it can be utilised for effective vulnerability management on Windows 10 hosts.
 
+![after-remediation](https://github.com/rasheedjimoh/nessus/assets/157264080/c2b33c6a-c8be-465d-993a-66fbf41adec0)
+
+
 Nessus Installation and Configuration:
 
 1. **Download and Install Nessus:**
@@ -11,15 +14,23 @@ Nessus Installation and Configuration:
    sudo dpkg -i Nessus-10.7.1-ubuntu1404_amd64.deb
    ```
 
+![Nessus-Downloading](https://github.com/rasheedjimoh/nessus/assets/157264080/4b4aa120-669c-4d4c-a3cb-4edb4e8bba40)
+
+
 2. **Start Nessus Scanner:**
    - Start the Nessus Scanner service using the command below.
    ```bash
    /bin/systemctl start nessusd.service
    ```
+![Nessus-Install](https://github.com/rasheedjimoh/nessus/assets/157264080/6c71bdda-d168-4756-bcd2-cb4ea66711cc)
+
 
 3. **Configure Nessus Scanner:**
    - Access the Nessus Scanner interface via your browser to configure it.
    - Go to either https://itmanagementVM:8834/ or https://localhost:8834/ to access the configuration page.
+
+![nessus-signin](https://github.com/rasheedjimoh/nessus/assets/157264080/badf4561-11dc-44ec-b300-d3aff63964a9)
+
 
 Activating and Configuring Nessus:
 
@@ -29,6 +40,14 @@ Activating and Configuring Nessus:
 2. **Perform Non-Credential and Credentialed Scans:**
    - Initiate non-credential scans by inputting the host IP and scheduling the scan.
    - Set up and start credentialed scans for enhanced vulnerability detection and assessment.
+
+![nessus-scan](https://github.com/rasheedjimoh/nessus/assets/157264080/db9559e5-863d-4147-91d4-ce11e29dc73f)
+
+---
+
+![before-remediation](https://github.com/rasheedjimoh/nessus/assets/157264080/908ab01a-068e-48ae-a031-97123896be3c)
+
+
 
 Enabling Credential Scan on Windows Hosts:
 
@@ -43,7 +62,12 @@ Enabling Credential Scan on Windows Hosts:
 
 By following these steps, you can effectively deploy and configure Nessus for vulnerability scanning and management, ensuring the security of your network infrastructure.
 
+![after-remediation](https://github.com/rasheedjimoh/nessus/assets/157264080/f463ba5a-9168-49f5-9e25-2f2f6e93573e)
+
+
 Benefits and Integration:
+
+![nessus-scan-1](https://github.com/rasheedjimoh/nessus/assets/157264080/79cabb88-465e-4d07-8979-25d29f32659b)
 
 Nessus is a powerful vulnerability scanner that integrates seamlessly into your cybersecurity framework, offering the following benefits:
 
@@ -53,6 +77,7 @@ Nessus is a powerful vulnerability scanner that integrates seamlessly into your 
 - **Verify Security Posture:** Validate the effectiveness of remediation efforts through verification scans, ensuring continuous improvement in security posture.
 
 Nessus serves as a cornerstone in implementing vulnerability management functions, providing a robust solution for identifying, assessing, and remedying security vulnerabilities across your network infrastructure.
+
 
 Conclusion:
 
