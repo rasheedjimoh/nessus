@@ -2,7 +2,7 @@
 
 Welcome to my professional portfolio where I showcase my expertise in cybersecurity, specifically in vulnerability management using Nessus. Below, I'll guide you through the process of downloading, installing, and configuring Nessus on Ubuntu, and how it can be utilised for effective vulnerability management on Windows 10 hosts.
 
-![after-remediation](https://github.com/rasheedjimoh/nessus/assets/157264080/c2b33c6a-c8be-465d-993a-66fbf41adec0)
+![before-remediation](https://github.com/rasheedjimoh/nessus/assets/157264080/908ab01a-068e-48ae-a031-97123896be3c)
 
 
 Nessus Installation and Configuration:
